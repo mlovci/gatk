@@ -24,15 +24,15 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/star_sjdb"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/star_sjdb"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/star"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/star"
    }else if(genome == "mm10") {
-      retval = "/projects/ps-yeolab/genomes/mm10/star_sjdb"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/star"
    }else if(genome == "ce10") {
-      retval = "/projects/ps-yeolab/genomes/ce10/star"
+      retval = "/thunderstorm/users/mlovci/Genomes/ce10/star"
    }else if(genome == "dm3") {
-      retval = "/projects/ps-yeolab/genomes/dm3/star"
+      retval = "/thunderstorm/users/mlovci/Genomes/dm3/star"
    }
    retval
   }
@@ -42,13 +42,15 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/hg19.chrom.sizes"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/hg19.chrom.sizes"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/mm9.chrom.sizes"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/mm9.chrom.sizes"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/mm10.chrom.sizes"
    }else if(genome == "ce10") {
-      retval = "/projects/ps-yeolab/genomes/ce10/ce10.chrom.sizes"
+      retval = "/thunderstorm/users/mlovci/Genomes/ce10/ce10.chrom.sizes"
    }else if(genome == "dm3") {
-      retval = "/projects/ps-yeolab/genomes/dm3/dm3.chrom.sizes"
+      retval = "/thunderstorm/users/mlovci/Genomes/dm3/dm3.chrom.sizes"
    }
 
    retval
@@ -59,9 +61,11 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/hg19data4"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/hg19data4"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/mm9data4"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/mm9data4"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/mm10data4"
    }
 
    retval
@@ -72,10 +76,13 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/hg19data4"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/hg19data4"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/mm9data4"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/mm9data4"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/mm10data4"
    }
+
 
    retval
   }
@@ -86,11 +93,13 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/chromosomes/all.fa"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/chromosomes/all.fa"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/chromosomes/all.fa"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/chromosomes/all.fa"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/chromosomes/all.fa"
    }else if(genome == "dm3") {
-      retval = "/projects/ps-yeolab/genomes/dm3/chromosomes/all.fa"
+      retval = "/thunderstorm/users/mlovci/Genomes/dm3/chromosomes/all.fa"
    }
    retval
   }
@@ -100,9 +109,11 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/hg19_phastcons.bw"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/hg19_phastcons.bw"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/mm9_phastcons.bw"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/mm9_phastcons.bw"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/mm10_phastcons.bw"
    }
 
    retval
@@ -116,7 +127,10 @@ object TsccUtils {
       retval = "/home/gpratt/clipper/clipper/data/regions/hg19_genes.bed"
    }else if(genome == "mm9") {
       retval = "/home/gpratt/clipper/clipper/data/region/mm9_genes.bed"
+   }else if(genome == "mm10") {
+      retval = "/home/gpratt/clipper/clipper/data/region/mm10_genes.bed"
    }
+
 
    retval
   }
@@ -126,10 +140,13 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/gencode.v17.annotation.gtf.db"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/gencode.v19.annotation.gtf.db"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/Mus_musculus.NCBIM37.64.fixed.gtf.db"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/Mus_musculus.NCBIM37.64.fixed.gtf.db"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/annotations/gencode.vM3.annotation.gtf.db"
    }
+
 
    retval
   }
@@ -139,9 +156,11 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/gencode_v17/gencode.v17.annotation.gtf"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/gencode.v19.annotation.gtf"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/Mus_musculus.NCBIM37.64.fixed.gtf"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/Mus_musculus.NCBIM37.64.fixed.gtf"
+   }else if (genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/gencode.vM3.annotation.gtf"
    }
 
    retval
@@ -152,11 +171,13 @@ object TsccUtils {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/gencode_v17/gencode.v17.annotation.exons.bed"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/gencode.v19.annotation.exons.bed"
    }else if(genome == "mm9") {
-      retval = "/projects/ps-yeolab/genomes/mm9/Mus_musculus.NCBIM37.64.fixed.exons.bed"
+      retval = "/thunderstorm/users/mlovci/Genomes/mm9/Mus_musculus.NCBIM37.64.fixed.exons.bed"
+   }else if(genome == "mm10") {
+      retval = "/thunderstorm/users/mlovci/Genomes/mm10/annotations/gencode.vM3.annotation.exons.bed"
    }else if(genome == "ce10") {
-      retval = "/projects/ps-yeolab/genomes/ce10/ce10.exons.BED"
+      retval = "/thunderstorm/users/mlovci/Genomes/ce10/ce10.exons.BED"
    }
 
    retval
@@ -167,7 +188,7 @@ def gcLocation(genome: String) : String = {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/gencode.v17.gc.txt"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/gencode.v19.gc.txt"
    }
    retval
   }
@@ -177,7 +198,7 @@ def snpDbLocation(genome: String) : String = {
 
    var retval = "none"
    if (genome == "hg19") {
-      retval = "/projects/ps-yeolab/genomes/hg19/snp137.txt.gz"
+      retval = "/thunderstorm/users/mlovci/Genomes/hg19/annotations/snp137.txt.gz"
    }
    retval
   }
