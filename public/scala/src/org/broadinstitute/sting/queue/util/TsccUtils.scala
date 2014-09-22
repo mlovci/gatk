@@ -126,12 +126,13 @@ object TsccUtils {
    if (genome == "hg19") {
       retval = "/home/gpratt/clipper/clipper/data/regions/hg19_genes.bed"
    }else if(genome == "mm9") {
-      retval = "/home/gpratt/clipper/clipper/data/region/mm9_genes.bed"
+	retval = "/home/gpratt/clipper/clipper/data/regions/mm9_genes.bed"
    }else if(genome == "mm10") {
       retval = "/home/gpratt/clipper/clipper/data/region/mm10_genes.bed"
    }
-
-
+   else if(genome == "ce10") {
+      retval = "/home/gpratt/clipper/clipper/data/regions/ce10_genes.bed"
+   }
    retval
   }
 
